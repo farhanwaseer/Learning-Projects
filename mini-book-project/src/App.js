@@ -2,6 +2,12 @@ function App() {
   return (
     <section>
       <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
+      <Book />
     </section>
   );
 }
