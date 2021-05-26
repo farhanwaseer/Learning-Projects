@@ -8,7 +8,7 @@ function App() {
 }
 
 const Book = () => {
-  return <article> This is Book-List  </article>;
+  return <article> <Image /></article>;
 }
 
 const Image = () => {
