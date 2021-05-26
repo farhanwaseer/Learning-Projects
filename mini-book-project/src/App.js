@@ -11,6 +11,7 @@ const Book = () => {
     <article>
       <Image />
       <Title />
+      <Author />
     </article>
   );
 };
@@ -25,5 +26,6 @@ const Image = () => {
 };
 
 const Title = () => <h1>The Last Thing He Told Me : A Novel</h1>;
+const Author = () => <h4>Laura Dave</h4>
 
 export default App;
