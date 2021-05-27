@@ -23,3 +23,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.book {
+  background: #f1f1f1;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
