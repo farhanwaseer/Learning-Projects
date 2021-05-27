@@ -12,6 +12,8 @@ function App() {
       <Book />
       <Book />
       <Book />
+      <Book />
+      <Book />
     </section>
   );
 }
