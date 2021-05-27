@@ -4,7 +4,7 @@ import "./App.css";
 
 function App() {
   return (
-    <section>
+    <section className="booklist">
       <Book />
       <Book />
       <Book />
