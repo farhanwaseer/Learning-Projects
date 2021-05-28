@@ -2,6 +2,10 @@
 
 import "./App.css";
 
+const firstBook = {
+  img: "https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._AC_SX184_.jpg",
+}
+
 function App() {
   return (
     <section className="booklist">
@@ -16,7 +20,7 @@ const Book = () => {
   return (
     <article className="book">
        <img
-      src="https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._AC_SX184_.jpg"
+      src={firstBook.img}
       alt=""
     />
        <h1>The Last Thing He Told Me : A Novel</h1>
