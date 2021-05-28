@@ -26,13 +26,12 @@ const Book = () => {
       alt=""
     />
        <h1>The Last Thing He Told Me : A Novel</h1>
+       <h4 style={{color: '#617d98', fontSize: '0.75rem', marginTop: '0.25rem'}}>Laura Dave</h4>
     </article>
   );
 };
 
 
 
-
-const Author = () => <h4 style={{color: '#617d98', fontSize: '0.75rem', marginTop: '0.25rem'}}>Laura Dave</h4>
 
 export default App;
