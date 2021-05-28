@@ -4,27 +4,35 @@ import "./App.css";
 
 const firstBook = {
   img: "https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._AC_SX184_.jpg",
+  title: "The Last Thing He Told Me: A Novel",
+  author: "Laura Dave"
+}
+
+const secondBook = {
+  img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._SX324_BO1,204,203,200_.jpg",
+  title: "Second Place: A Novel ",
+  author: "Rachel Cusk"
 }
 
 function App() {
   return (
     <section className="booklist">
-      <Book />
+      <Book img={firstBook.img} title={firstBook.title} author={firstBook.author}/>
       <Book />
      
     </section>
   );
 }
 
-const Book = () => {
+const Book = (props) => {
   return (
     <article className="book">
        <img
-      src={firstBook.img}
+      src={props.img}
       alt=""
     />
-       <h1>The Last Thing He Told Me : A Novel</h1>
-       <h4 style={{color: '#617d98', fontSize: '0.75rem', marginTop: '0.25rem'}}>Laura Dave</h4>
+       <h1>{props.title}</h1>
+       <h4 >{props.author}</h4>
     </article>
   );
 };
