@@ -9,7 +9,7 @@ const firstBook = {
 }
 
 const secondBook = {
-  img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._SX324_BO1,204,203,200_.jpg",
+  img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
   title: "Second Place: A Novel ",
   author: "Rachel Cusk"
 }
@@ -18,7 +18,7 @@ function App() {
   return (
     <section className="booklist">
       <Book img={firstBook.img} title={firstBook.title} author={firstBook.author}/>
-      <Book />
+      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
      
     </section>
   );
