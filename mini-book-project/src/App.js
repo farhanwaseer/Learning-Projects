@@ -7,13 +7,7 @@ function App() {
     <section className="booklist">
       <Book />
       <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+     
     </section>
   );
 }
