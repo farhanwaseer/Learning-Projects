@@ -21,8 +21,7 @@ function App() {
       <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
       <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
       <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
-      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
-      
+   
    
    
    
