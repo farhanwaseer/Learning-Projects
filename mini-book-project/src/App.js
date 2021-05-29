@@ -19,6 +19,7 @@ function App() {
     <section className="booklist">
       <Book img={firstBook.img} title={firstBook.title} author={firstBook.author}/>
       <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
+      <Book img={secondBook.img} title={secondBook.title} author={secondBook.author}/>
      
     </section>
   );
