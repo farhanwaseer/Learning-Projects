@@ -14,6 +14,20 @@ const books = [
     img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
     title: "Second Place: A Novel ",
     author: "Rachel Cusk",
+  },
+
+  {
+    id: 3,
+    img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
+    title: "Second Place: A Novel ",
+    author: "Rachel Cusk",
+  },
+
+  {
+    id: 4,
+    img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
+    title: "Second Place: A Novel ",
+    author: "Rachel Cusk",
   }
 ];
 function App() {
