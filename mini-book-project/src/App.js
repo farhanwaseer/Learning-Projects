@@ -35,7 +35,7 @@ function App() {
     <section className="booklist">
       {
         books.map((book) => {
-          return <Book  book={book}/>
+          return <Book key={books.id} book={book}/>
         })
       }
     </section>
