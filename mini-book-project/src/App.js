@@ -2,13 +2,15 @@
 import "./App.css";
 
 const books = [
-  {
+  { 
+    id: 1,
     img: "https://images-na.ssl-images-amazon.com/images/I/51b-JoV-1xS._AC_SX184_.jpg",
     title: "The Last Thing He Told Me: A Novel",
     author: "Laura Dave",
   },
 
   {
+    id: 2,
     img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
     title: "Second Place: A Novel ",
     author: "Rachel Cusk",
@@ -19,7 +21,7 @@ function App() {
     <section className="booklist">
       {
         books.map((book)=> {
-          return <Book book={book} ></Book>
+          return <Book  key={book.id} book={book} ></Book>
         })
       }
     </section>
