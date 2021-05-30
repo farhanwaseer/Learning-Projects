@@ -33,7 +33,11 @@ const books = [
 function App() {
   return (
     <section className="booklist">
-      
+      {
+        books.map((book) => {
+          return <Book  book={book}/>
+        })
+      }
     </section>
   );
 }
