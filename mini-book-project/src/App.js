@@ -1,6 +1,4 @@
 // CSS
-
-import { Children } from "react";
 import "./App.css";
 
 const firstBook = {
