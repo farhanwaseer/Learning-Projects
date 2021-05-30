@@ -1,5 +1,6 @@
 // CSS
 
+import { Children } from "react";
 import "./App.css";
 
 const firstBook = {
@@ -43,6 +44,7 @@ const Book = (props) => {
       <img src={props.img} alt="" />
       <h1>{props.title}</h1>
       <h4>{props.author}</h4>
+      {Children}
     </article>
   );
 };
