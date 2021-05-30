@@ -18,26 +18,22 @@ const books = [
 
   {
     id: 3,
-    img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
-    title: "Second Place: A Novel ",
-    author: "Rachel Cusk",
+    img: "https://images-na.ssl-images-amazon.com/images/I/41+2DiWeWAS._AC_SX184_.jpg",
+    title: "The Premonition: A Pandemic Story ",
+    author: "Michael Lewis",
   },
 
   {
     id: 4,
-    img: "https://images-na.ssl-images-amazon.com/images/I/51U2mcE5iXL._AC_SX184_.jpg",
-    title: "Second Place: A Novel ",
-    author: "Rachel Cusk",
+    img: "https://images-na.ssl-images-amazon.com/images/I/51xRyKzMMQL._AC_SX184_.jpg",
+    title: "2022 Large Scale Road Atlas (Rand McNally Large Scale Road Atlas USA)  ",
+    author: "Rand McNally ",
   }
 ];
 function App() {
   return (
     <section className="booklist">
-      {
-        books.map((book)=> {
-          return <Book  key={book.id} book={book} ></Book>
-        })
-      }
+      
     </section>
   );
 }
