@@ -21,7 +21,13 @@ function App() {
         img={firstBook.img}
         title={firstBook.title}
         author={firstBook.author}
-      />
+      >
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Temporibus maiores,
+           quaerat quasi assumenda eos odit labore non quae est quo?
+        </p>
+      </Book>
       <Book
         img={secondBook.img}
         title={secondBook.title}
