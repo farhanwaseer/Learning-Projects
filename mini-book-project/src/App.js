@@ -56,7 +56,7 @@ function App() {
   );
 }
 
-const handler => ({alert("helloWorld")});
+const handler = () => {}
 
 
 const Book = (props) => {
