@@ -64,7 +64,7 @@ const Book = (props) => {
       <img src={img} alt="books" />
       <h1>{title}</h1>
       <h4>{author}</h4>
-      <button>example button</button>
+      <button onClick={}>example button</button>
     </article>
   );
 };
