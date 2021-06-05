@@ -1,3 +1,8 @@
+
+const handler = () => {
+    alert("helloWorld");
+  };
+
 export const Book = (props) => {
     const { img, title, author } = props.book;
   
