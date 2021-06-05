@@ -56,6 +56,9 @@ function App() {
   );
 }
 
+const handler => ({alert("ho")})
+
+
 const Book = (props) => {
   const { img, title, author } = props.book;
 
