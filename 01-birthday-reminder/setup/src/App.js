@@ -4,8 +4,10 @@ import List from './List';
 function App() {
   return (
     <main>
-      <section>
+      <section className="container">
         <h3>0 birthday today</h3>
+         <List />
+         <button>clear all</button>
       </section>
     </main>
   )
