@@ -7,7 +7,7 @@ function App() {
       <section className="container">
         <h3>0 birthday today</h3>
          <List />
-         <button>clear all</button>
+         <button onClick={()=> {console.log("you clicked me")}}>clear all</button>
       </section>
     </main>
   )
