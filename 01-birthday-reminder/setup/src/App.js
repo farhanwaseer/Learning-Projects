@@ -8,7 +8,7 @@ function App() {
     <main>
       <section className='container'>
         <h3>{people.length} birthdays today</h3>
-        <List people={people.length}/>
+        <List people={people}/>
         <button onClick={()=> console.log('click me')}>clear all</button>
       </section>
     </main>
