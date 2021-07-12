@@ -14,9 +14,11 @@ function App() {
       </main>
     );
   }
-  return <main>
-    <Tours/>
-  </main>
+  return (
+    <main>
+      <Tours />
+    </main>
+  );
 }
 
 export default App;
