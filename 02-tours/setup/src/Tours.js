@@ -4,8 +4,16 @@ const Tours = ({tours}) => {
   return <section>
     <div className="title">
       <h2>ours tours</h2>
+    <div className="underline"></div>
     </div>
-  </section>;
+    <div>
+      {
+        tours.map((tour) => {
+          return <Tour key={tour.id} {...tours}/>
+        })
+      }
+    </div>
+  </section>
 };
 
 export default Tours;
