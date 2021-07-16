@@ -7,6 +7,7 @@ function App() {
       <section className="contanier">
         <div className="title">
           <h2>our Review</h2>
+          <div className="underline"></div>
         </div>
       </section>
     </main>
