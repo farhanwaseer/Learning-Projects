@@ -6,13 +6,15 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
-  return <section className='section'>
-     <div className='title'>
+  return (
+    <section className="section">
+      <div className="title">
         <h2>
           <span>/</span>reviews
         </h2>
-     </div>
-  </section>
+      </div>
+    </section>
+  );
 }
 
 export default App;
