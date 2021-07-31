@@ -6,8 +6,8 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
-  return <section>
-    
+  return <section className='section'>
+
   </section>
 }
 
