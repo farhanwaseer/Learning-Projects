@@ -6,7 +6,7 @@ function App() {
   const [people, setPeople] = useState(data);
   const [index, setIndex] = useState(0);
 
-  return <h2>slider project setup</h2>;
+  return ;
 }
 
 export default App;
