@@ -7,8 +7,10 @@ function App() {
   const [index, setIndex] = useState(0);
 
   return <section className='section'>
-     <div>
-       
+     <div className='title'>
+        <h2>
+          <span>/</span>reviews
+        </h2>
      </div>
   </section>
 }
