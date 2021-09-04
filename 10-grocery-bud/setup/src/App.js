@@ -7,7 +7,11 @@ function App() {
   const [list, setList] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
   const [editID, setEditID] = useState(null);
-  const [alert, setAlert] = useState({ show: false, msg: "", type: "" });
+  const [alert, setAlert] = useState({
+    show: true,
+    msg: "helloworld",
+    type: "success",
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -44,9 +48,9 @@ function App() {
 
       {list.length > 0 && (
         <div className="grocery-container">
-        <List items={list} />
-        <button className="clear-btn"> clear items</button>
-      </div>
+          <List items={list} />
+          <button className="clear-btn"> clear items</button>
+        </div>
       )}
     </section>
   );
