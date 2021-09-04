@@ -22,6 +22,7 @@ function App() {
       //deal with edit
     } else {
       // show alert
+      showAlert(true,'success','item added to list');
       const newItem = { id: new Date().getTime().toString(), title: name };
       setList([...list, newItem]);
       setName("");
