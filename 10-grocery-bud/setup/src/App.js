@@ -46,6 +46,7 @@ const removeItem = (id) => {
         {alert.show && <Alert  {...alert} removeAlert={showAlert} list={list}/>}
         <h3>grocery bud</h3>
         <div className="form-control">
+          
           <input
             type="text"
             className="grocery"
