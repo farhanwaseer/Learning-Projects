@@ -4,16 +4,30 @@ import { links, social } from './data'
 import logo from './logo.svg'
 
 const Navbar = () => {
+  const [showLInks,setShowLinks] = useState(false);
+  const linksContainerRef = useRef(null);
+  const linksRef = useRef(null);
+
+useEffect(()=> {
+const linksHeight = linksRef.current.getBoundingClientRect().height
+if(showLInks){
+  linksContainerRef.current.style.height = `${linksHeight}px`
+}else {
+  linksContainerRef.current.style.height = '0px'
+}
+},[showLInks])
+
   return <nav>
     <div className="nav-center">
       <div className="nav-header">
       <img src={logo} alt="logo" />
-      <button className='nav-toggle'>
+      <button className='nav-toggle' onClick={()=> setShowLinks(!showLInks)}>
       <FaBars/>
       </button>
       </div>
-        <div className="links-container show-container">
-          <ul className="links">
+        
+          <div className='links-container' ref={linksContainerRef}>
+          <ul className="links" ref={linksRef}>
           {links.map((link)=> {
           const {id,url,text} = link;
           return <li key={id}>
@@ -22,6 +36,7 @@ const Navbar = () => {
         })}
           </ul>
         </div>
+        
       <ul className="social-icons">
       {social.map((socialIcon)=> {
         const {id,url,icon} = socialIcon;
